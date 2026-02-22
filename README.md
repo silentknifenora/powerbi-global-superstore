@@ -1,4 +1,4 @@
- #Global Superstore Sales & Product Analytics Dashboard
+# Global Superstore Sales & Product Analytics Dashboard
  - Project Overview
 
 This project presents an interactive Power BI dashboard built using the Global Superstore dataset to analyze global sales performance, profitability, and product contribution.
@@ -87,4 +87,5 @@ Structuring multi-page reports for executive usability
 # Dataset
 
 Global Superstore (public sample dataset)
+
 Includes multi-year transactional sales data across regions, categories, and products.
