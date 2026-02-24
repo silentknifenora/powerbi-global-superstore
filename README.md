@@ -124,14 +124,6 @@ Add screenshots inside an images folder and reference like this:
 
 ![Product Analysis](images/product_and_catergory_analysis.png)
 
-Recommended screenshots:
-
-Full Executive page
-
-Regional analysis page
-
-Product analysis page
-
 # Skills Demonstrated
 
 Business Intelligence Reporting
@@ -147,3 +139,4 @@ Translating Business Questions into Visual Analytics
 # Author
 
 Neha Raut
+
