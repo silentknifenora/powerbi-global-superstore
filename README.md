@@ -1,56 +1,31 @@
 # Global Superstore Sales & Product Analytics Dashboard
- - Project Overview
+- Project Overview
 
-This project presents an interactive Power BI dashboard built using the Global Superstore dataset to analyze global sales performance, profitability, and product contribution.
+This project presents an interactive business intelligence dashboard built using the Global Superstore dataset in Power BI.
 
-The objective was to simulate a real-world business intelligence reporting solution that enables stakeholders to:
+The objective was to design an executive-level reporting solution that enables stakeholders to:
 
-Monitor revenue and profit trends
+Monitor overall revenue and profitability trends
 
 Identify high- and low-performing regions
 
-Analyze product-level contribution
+Analyze product-level revenue contribution
 
-Drill down into revenue drivers
+Drill down into key revenue drivers
 
-The dashboard is designed with executive-level usability, dynamic filtering, and advanced analytical features.
+The dashboard simulates a real-world BI environment with structured data modeling, DAX calculations, and interactive analytics.
 
-# Dashboard Pages & Analytical Focus
-1. Executive Summary
+# Business Objectives
 
-KPI cards for Total Sales, Profit, and Order Volume
+Track total Sales, Profit, and Order Volume
 
-Time-series trend analysis with forecasting
+Analyze revenue concentration by region
 
-High-level performance overview for leadership decision-making
+Identify product categories driving profitability
 
-Interactive slicers for dynamic filtering
+Detect underperforming segments
 
-Purpose: Provide a quick snapshot of overall business health.
-
-2. Regional Performance Analysis
-
-Sales comparison across global regions
-
-Profitability distribution by geography
-
-Drill-through capability for region-level deep dives
-
-Purpose: Identify geographic revenue concentration and underperforming markets.
-
-3. Product & Category Analysis
-
-Category and subcategory sales breakdown
-
-Treemap to visualize revenue concentration
-
-Decomposition Tree to drill from Category → Subcategory → Product
-
-Top 10 Products by Sales with dynamic filtering
-
-DAX-based dynamic titles responsive to slicer selection
-
-Purpose: Detect product segments driving growth and areas impacting profitability.
+Enable drill-down analysis for decision-making
 
 # Tools & Technologies
 
@@ -64,28 +39,111 @@ Interactive Visual Analytics
 
 Forecasting & Drill-through Analysis
 
-# Key Business Insights
+# Dashboard Pages & Analytical Focus
+1. Executive Summary
 
-Identified regions contributing the highest share of total revenue
+KPI cards: Total Sales, Total Profit, Order Count
 
-Detected subcategories with high sales but low profitability
+Time-series revenue trend analysis
 
-Highlighted product concentration patterns using treemap analysis
+Forecasting for sales projection
 
-Enabled multi-level drill-down to uncover revenue drivers
+Interactive slicers for dynamic filtering
 
-# Key Learnings
+Purpose: Provide leadership with a quick snapshot of business health.
 
-Designing dashboards with business-first analytical intent
+2. Regional Performance Analysis
 
-Managing filter context and dynamic calculations using DAX
+Sales comparison across global regions
 
-Selecting visuals aligned with business questions
+Profitability breakdown by geography
 
-Structuring multi-page reports for executive usability
+Drill-through capability for region deep dive
+
+Purpose: Identify revenue concentration and geographic risk.
+
+3. Product & Category Analysis
+
+Category and Subcategory performance breakdown
+
+Treemap for revenue concentration
+
+Decomposition Tree (Category → Subcategory → Product)
+
+Top 10 Products by Sales
+
+Dynamic DAX-based titles
+
+Purpose: Detect product segments driving growth and profitability.
 
 # Dataset
 
-Global Superstore (public sample dataset)
+Global Superstore Dataset (Public Sample Dataset)
 
-Includes multi-year transactional sales data across regions, categories, and products.
+Includes:
+
+Multi-year transactional sales data
+
+Customer segments
+
+Regional distribution
+
+Product categories and subcategories
+
+Profit and shipping details
+
+# Key Business Insights
+
+A small number of regions contribute a large share of total revenue.
+
+Some subcategories generate high sales but low profit margins.
+
+Revenue concentration patterns highlight dependency risk.
+
+Drill-down analysis reveals specific products driving performance.
+
+# Business Impact
+
+This dashboard provides a structured decision-support system for:
+
+Executive-level revenue monitoring
+
+Profitability optimization
+
+Regional strategy planning
+
+Product portfolio evaluation
+
+# Visualizations
+
+Add screenshots inside an images folder and reference like this:
+
+![Executive Dashboard](images/executive_summary.png)
+
+![Regional Analysis](images/regional_analysis.png)
+
+![Product Analysis](images/product_and_catergory_analysis.png)
+
+Recommended screenshots:
+
+Full Executive page
+
+Regional analysis page
+
+Product analysis page
+
+# Skills Demonstrated
+
+Business Intelligence Reporting
+
+Data Modeling & Relationship Management
+
+Advanced DAX Calculations
+
+Executive Dashboard Design
+
+Translating Business Questions into Visual Analytics
+
+# Author
+
+Neha Raut
